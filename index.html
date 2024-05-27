@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon"type="sqs-icon" href="sqs.png.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQS DANCE ACADEMY WEB</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-wink-smile'></i>GROOVE HOUSE</a>
+        <!-- Menu icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news&events">News & Events</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <!-- Profile -->
+        <div class="profile">
+            <img src="s2.jpg" alt="">
+            <span>Sora Q Sora</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+    </header>
+
+    <!-- Best Dance Brand -->
+    <div class="container">
+        <div class="photo">
+            <img src="sqhip.webp" alt="Best dance crew">
+        </div>
+    </div>
+    <div class="brands">
+        <h2>The Best Dance Brand</h2>
+        <a href="#">Book Now</a>
+    </div>
+
+    <!-- Card Slider Section -->
+    <div class="new-dances">
+        <h2>New <span>Dances</span></h2>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <div class="product-slider">
+                <div class="product">
+                    <img src="kizomba.jpg" alt="Kizomba Couple Dance">
+                    <h3>Kizomba Couple Dance</h3>
+                    <p>Every Friday</p>
+                    <p class="price">$8.9</p>
+                </div>
+                <div class="product">
+                    <img src="ballet.jpg" alt="Ballet dance">
+                    <h3>Ballet Dance Class</h3>
+                    <p>Every Saturday</p>
+                    <p class="price">$10.00</p>
+                </div>
+                <div class="product">
+                    <img src="jazz.jpeg" alt="Jazz dance class">
+                    <h3>Jazz Dance Classes</h3>
+                    <p>Kid's class</p>
+                    <p class="price">$9.99</p>
+                </div>
+                <div class="product">
+                    <img src="african.jpg" alt="African Dance Class">
+                    <h3>African Dance Classes</h3>
+                    <p>From next Month</p>
+                    <p class="price">$6.99</p>
+                </div>
+                <div class="product">
+                    <img src="tap.jpeg" alt="Tap dance Class">
+                    <h3>Tap Dance Class</h3>
+                    <p>New Dance</p>
+                    <p class="price">$0.00</p>
+                </div>
+                <div class="product">
+                    <img src="odi.png" alt="Odi Dance Class">
+                    <h3>Odi Dance Classes</h3>
+                    <p>Kenyan Dance</p>
+                    <p class="price">$4.99</p>
+                </div>
+                <div class="product">
+                    <img src="amapiano.jpeg" alt="Amapiano Dance Class">
+                    <h3>Amapiano Dance</h3>
+                    <p>Party Move</p>
+                    <p class="price">$3.45</p>
+                </div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Best Dance Crew -->
+    <div class="container">
+        <div class="photo">
+            <img src="sqbest.webp" alt="Best dance crew">
+        </div>
+        <div class="best-sellers">
+            <h2>Best Dance Crew/Academy</h2>
+            <a href="#">Book Now</a>
+        </div>
+    </div>
+
+    <!-- Recommendations Section -->
+    <div class="recommendations-container">
+        <h2>Recommendations <span>for you</span></h2>
+        <div class="slider-container">
+            <button class="prev" onclick="slide(-1)">&#10094;</button>
+            <div class="slider">
+                <div class="card">
+                    <img src="sqhip.webp" alt="Hip-Hop" class="card-image">
+                    <div class="card-content">
+                        <h3>Hip-Hop Dance</h3>
+                        <p>Every Day</p>
+                        <p>$15.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sqdh.webp" alt="Dancing-Hall" class="card-image">
+                    <div class="card-content">
+                        <h3>Dancing-Hall Dance</h3>
+                        <p>Every Day</p>
+                        <p>$15.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sqamp.webp" alt="Amapiano-Dance" class="card-image">
+                    <div class="card-content">
+                        <h3>Amapiano-Dance Classes</h3>
+                        <p>Every Sunday</p>
+                        <p>$7.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sqaf.webp" alt="Afro dance" class="card-image">
+                    <div class="card-content">
+                        <h3>Afro-Dance Classes</h3>
+                        <p>Every Thursday</p>
+                        <p>$9.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sqzu.webp" alt="Zumba dance" class="card-image">
+                    <div class="card-content">
+                        <h3>Zumba Dance</h3>
+                        <p>Every Friday</p>
+                        <p>$6.00</p>
+                    </div>
+                </div>
+            </div>
+            <button class="next" onclick="slide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Our Story -->
+    <main>
+        <section class="our-story">
+            <h2>Our Story</h2>
+            <div class="story-content">
+                <div class="text-content">
+                    <p class="intro">SQS, also known as the Superb Quality Services, is a dynamic dance crew that originated in the heart of Mukuru Kayaba, Nairobi. Formed in 2010 by a group of passionate friends, SQS quickly gained recognition for their electrifying performances and unique style that blends hip-hop, contemporary, and street dance. What started as casual neighborhood dance battles soon turned into a serious pursuit of excellence, with the crew participating in and winning several local and national dance competitions.</p>
+                    <p class="more-text">The passion and dedication of its members, coupled with their tight-knit bond, have propelled SQS to become a symbol of creativity and resilience. Through their performances, SQS not only showcases their incredible talent but also spreads a message of unity and empowerment, inspiring young dancers across the city to follow their dreams.</p>
+                    <button id="read-more-btn">Read More</button>
+                </div>
+                <img src="sqs.png.png" alt="our story" class="large-image">
+            </div>
+        </section>
+        
+        <section class="instagram-follow">
+            <h2>Follow Us on Instagram</h2>
+            <div class="instagram-grid">
+                <img src="ig.webp" alt="Instagram Image 1" class="small-image">
+                <img src="bestd.webp" alt="Instagram Image 2" class="small-image">
+                <img src="sqdh.webp" alt="Instagram Image 3" class="small-image">
+                <img src="sqhip.webp" alt="Instagram Image 4" class="small-image">
+                <img src="sqzu.webp" alt="Instagram Image 5" class="small-image">
+                <img src="strypic.webp" alt="Instagram Image 6" class="small-image">
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
